@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
+<style type="text/css">
+#im_interface {
+	width:630px;
+	height:410px;
+}
+
+#im_description {
+	width:590px;
+	height:260px;
+	background-color:#ebeef0;
+	padding:20px;
+}
+
+#header {
+	width:630px;
+	height:60px;
+	background-image:url(http://installmetrix.com/common/interface/images/ujWYG4w7qjvCDpWz_img1);
+	background-repeat:repeat-x;
+	text-align:center;
+	
+}
+
+#inner {
+	display:inline-block;
+	text-align:left;
+}
+
+#logosize {
+	width:50px;
+	height:50px;
+	margin-left:20px;
+	margin-top:6px;
+	float:left;
+}
+
+#title {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#F4F4F4;
+	font-size:26px;
+	height:30px;
+	margin-top:15px;
+	margin-left:10px;
+	float:left;
+}
+
+#footer {
+	background-color:#464648;
+	height:50px;
+	width:610px;
+	text-align:right;
+	padding-right:20px;
+}
+
+#terms {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#999;
+	margin-top:20px;
+	margin-left:20px;
+	float:left;
+}
+
+
+
+#btn_exit {
+	background:url();
+	width:141px;
+	height:47px;
+	border:none;
+	cursor:pointer;
+}
+
+#greencheck {
+	text-align:center;
+	margin-top:35px;
+}
+
+#successful {
+	text-align:center;
+	margin-top:10px;
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:24px;
+}
+
+#successful2 {
+	text-align:center;
+	margin-top:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+
+</style>
+
+</head>
+
+<body id=CInstallerManagerDlg style="background-color: white; margin:0px;">
+<div id="im_interface">
+	<div id="header">
+    	<div id="inner">
+        	<img src="@logo_image@" id="logosize" />       
+        	<div id="title">@title@</div>
+        </div>
+    </div>
+	<div id="im_description">
+    	<div id="greencheck">
+			<img src="" width="97" height="97" />
+        </div>
+        <div id="successful">
+        	Installation Successful
+        </div>
+        <div id="successful2">
+        	The software was successfully installed.</div>	
+	</div>
+    <div id="footer">
+    	
+		<span id="exit"><input type="button" id="btn_exit" onmousedown="$('#btn_exit').css('background', 'url()');" onmouseup="$('#btn_exit').css('background', 'url()');" onmouseout="$('#btn_exit').css('background', 'url()');" /></span>
+	</div>
+</div>
+</body> 
+</html>

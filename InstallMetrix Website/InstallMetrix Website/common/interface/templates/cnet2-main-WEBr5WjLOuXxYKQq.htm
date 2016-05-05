@@ -1,0 +1,165 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
+<style type="text/css">
+#im_interface {
+	width:630px;
+	height:410px;
+}
+
+#im_description {
+	width:590px;
+	height:260px;
+	background-color:#ebeef0;
+	padding:20px;
+	position:relative;
+}
+
+#header {
+	width:630px;
+	height:60px;
+	background-image:url(http://installmetrix.com/common/interface/images/WEBr5WjLOuXxYKQq_img1);
+	background-repeat:repeat-x;
+	text-align:center;
+	
+}
+
+#inner {
+	display:inline-block;
+	text-align:left;
+}
+
+#logosize {
+	width:50px;
+	height:50px;
+	margin-left:20px;
+	margin-top:6px;
+	float:left;
+}
+
+#title {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#F4F4F4;
+	font-size:26px;
+	height:30px;
+	margin-top:15px;
+	margin-left:10px;
+	float:left;
+}
+
+#footer {
+	background-color:#ccc;
+	height:47px;
+	width:610px;
+	text-align:right;
+	padding-right:20px;
+	padding-top:3px;
+}
+
+#terms {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#999;
+	position:absolute;
+	bottom:0;
+	right:20px;
+}
+
+#decline {
+	margin-right:15px;
+}
+
+#btn_decline {
+	background:url(http://installmetrix.com/common/interface/images/WEBr5WjLOuXxYKQq_img2);
+	width:141px;
+	height:47px;
+	border:none;
+	cursor:pointer;
+}
+
+#btn_accept {
+	background:url(http://installmetrix.com/common/interface/images/WEBr5WjLOuXxYKQq_img4);
+	width:141px;
+	height:47px;
+	border:none;
+	cursor:pointer;
+}
+
+</style>
+<script type="text/javascript">
+		function _ClickRadio1() //recommend
+		{
+			if(document.getElementById("opt_checkbox1") != null)
+			{
+				document.getElementById("opt_checkbox1").disabled = true;
+				document.getElementById("opt_checkbox1").checked = true;
+			}
+			if(document.getElementById("opt_checkbox2") != null)
+			{
+				document.getElementById("opt_checkbox2").disabled = true;
+				document.getElementById("opt_checkbox2").checked = true;
+			}
+			if(document.getElementById("opt_checkbox3") != null)
+			{
+				document.getElementById("opt_checkbox3").disabled = true;
+				document.getElementById("opt_checkbox3").checked = true;
+			}
+			if(document.getElementById("opt_checkbox4") != null)
+			{
+				document.getElementById("opt_checkbox4").disabled = true;
+				document.getElementById("opt_checkbox4").checked = true;
+			}
+			if(document.getElementById("opt_checkbox5") != null)
+			{
+				document.getElementById("opt_checkbox5").disabled = true;
+				document.getElementById("opt_checkbox5").checked = true;
+			}
+			if(document.getElementById("checkbox_div") != null)
+			{
+				document.getElementById("checkbox_div").style.display = "none";
+			}
+		}
+		function _ClickRadio2() //advance
+		{
+			if(document.getElementById("opt_checkbox1") != null)
+				document.getElementById("opt_checkbox1").disabled = false;
+			if(document.getElementById("opt_checkbox2") != null)
+				document.getElementById("opt_checkbox2").disabled = false;
+			if(document.getElementById("opt_checkbox3") != null)
+				document.getElementById("opt_checkbox3").disabled = false;
+			if(document.getElementById("opt_checkbox4") != null)
+				document.getElementById("opt_checkbox4").disabled = false;
+			if(document.getElementById("opt_checkbox5") != null)
+				document.getElementById("opt_checkbox5").disabled = false;
+			if(document.getElementById("checkbox_div") != null)			
+				document.getElementById("checkbox_div").style.display = "block";
+		}
+		function InitPage()
+		{
+			_ClickRadio1();
+		}
+		
+	</script>
+</head>
+
+<body id=CInstallerManagerDlg style="background-color: white; margin:0px;">
+<div id="im_interface">
+	<div id="header">
+    	<div id="inner">
+        	<img src="@logo_image@" id="logosize" />       
+        	<div id="title">@title@</div>
+        </div>
+    </div>
+	<div id="im_description">
+		@description@
+	</div>
+    <div id="footer">
+    	
+    	<span id="decline"><input type="button" id="btn_decline" onmousedown="$('#btn_decline').css('background', 'url(http://installmetrix.com/common/interface/images/WEBr5WjLOuXxYKQq_img3)');" onmouseup="$('#btn_decline').css('background', 'url(http://installmetrix.com/common/interface/images/WEBr5WjLOuXxYKQq_img2)');" onmouseout="$('#btn_decline').css('background', 'url(http://installmetrix.com/common/interface/images/WEBr5WjLOuXxYKQq_img2)');" /></span>
+		<span id="next"><input type="button" id="btn_accept" onmousedown="$('#btn_accept').css('background', 'url(http://installmetrix.com/common/interface/images/WEBr5WjLOuXxYKQq_img12)');" onmouseup="$('#btn_accept').css('background', 'url(http://installmetrix.com/common/interface/images/WEBr5WjLOuXxYKQq_img4)');" onmouseout="$('#btn_accept').css('background', 'url(http://installmetrix.com/common/interface/images/WEBr5WjLOuXxYKQq_img4)');" /></span>
+	</div>
+</div>
+</body> 
+</html>

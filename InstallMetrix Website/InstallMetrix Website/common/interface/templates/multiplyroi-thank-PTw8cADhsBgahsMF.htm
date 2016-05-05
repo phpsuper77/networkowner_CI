@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
+<style type="text/css">
+#im_interface {
+	width:630px;
+	height:410px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+	height:290px;
+	padding:10px;
+	background-image:url(http://totalnethits.biz/common/interface/images/PTw8cADhsBgahsMF_img2);
+}
+
+#im_description {
+	padding:10px;
+}
+
+#header {
+	height:50px;
+	background-image:url(http://totalnethits.biz/common/interface/images/PTw8cADhsBgahsMF_img1);
+	background-repeat:repeat-x;
+}
+
+#footer {
+	height:50px;
+	background-image:url(http://totalnethits.biz/common/interface/images/PTw8cADhsBgahsMF_img3);
+	background-repeat:repeat-x;
+}
+
+#logosize {
+	height:40px;
+	margin-top:5px;
+	margin-left:10px;
+	float:left;
+}
+
+#title {
+	font-size:24px;
+	margin-top:13px;
+	margin-left:10px;
+	float:left;
+}
+
+#instructions {
+	font-weight:bold;
+	color:#333;
+	padding:10px;
+}
+
+#btn_decline {
+	background:url(http://totalnethits.biz/common/interface/images/PTw8cADhsBgahsMF_img4);
+	width:141px;
+	height:47px;
+	border:none;
+	cursor:pointer;
+	float:left;
+}
+
+#btn_exit {
+	background:url(http://totalnethits.biz/common/interface/images/PTw8cADhsBgahsMF_img13);
+	width:141px;
+	height:47px;
+	border:none;
+	cursor:pointer;
+	margin-right:10px;
+	float:right;
+}
+
+#greencheck {
+	text-align:center;
+	margin-top:35px;
+}
+
+#successful {
+	text-align:center;
+	margin-top:10px;
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:24px;
+}
+
+#successful2 {
+	text-align:center;
+	margin-top:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+	
+
+</style>
+
+</head>
+
+<body id=CInstallerManagerDlg style="background-color: white; margin:0px;">
+<div id="im_interface">
+	<div id="header">
+    	<img src="@logo_image@" id="logosize" />       
+        <div id="title">@title@</div>
+    </div>
+    <div id="wrapper">
+        
+      <div id="im_description">
+           <div id="greencheck">
+			<img src="http://totalnethits.biz/common/interface/images/PTw8cADhsBgahsMF_img12" width="97" height="97" />
+        </div>
+        <div id="successful">
+        	Installation Successful
+        </div>
+        <div id="successful2">
+        	The software was successfully installed.</div>	
+      </div>
+    </div>
+    <div id="footer">
+
+		<span id="exit"><input type="button" id="btn_exit" onmousedown="$('#btn_exit').css('background', 'url(http://totalnethits.biz/common/interface/images/PTw8cADhsBgahsMF_img14)');" onmouseup="$('#btn_exit').css('background', 'url(http://totalnethits.biz/common/interface/images/PTw8cADhsBgahsMF_img13)');" onmouseout="$('#btn_exit').css('background', 'url(http://totalnethits.biz/common/interface/images/PTw8cADhsBgahsMF_img13)');" /></span>
+    </div>    
+</div>    	
+</body> 
+</html>

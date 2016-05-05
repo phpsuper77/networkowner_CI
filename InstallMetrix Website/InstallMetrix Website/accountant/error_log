@@ -1,0 +1,200 @@
+[23-Apr-2013 13:30:46 America/New_York] PHP Fatal error:  Class 'FB' not found in /home/startins/public_html/publishers/camp_add.php on line 5
+[23-Apr-2013 13:30:47 America/New_York] PHP Fatal error:  Class 'FB' not found in /home/startins/public_html/publishers/camp_add.php on line 5
+[23-Apr-2013 13:31:19 America/New_York] PHP Fatal error:  Class 'FB' not found in /home/startins/public_html/publishers/camp_add.php on line 5
+[23-Apr-2013 13:31:22 America/New_York] PHP Fatal error:  Class 'FB' not found in /home/startins/public_html/publishers/camp_add.php on line 5
+[23-Apr-2013 13:31:51 America/New_York] PHP Fatal error:  Class 'FB' not found in /home/startins/public_html/publishers/camp_add.php on line 5
+[23-Apr-2013 13:31:53 America/New_York] PHP Fatal error:  Class 'FB' not found in /home/startins/public_html/publishers/camp_add.php on line 5
+[23-Apr-2013 13:31:54 America/New_York] PHP Fatal error:  Class 'FB' not found in /home/startins/public_html/publishers/camp_add.php on line 5
+[23-Apr-2013 13:31:55 America/New_York] PHP Fatal error:  Class 'FB' not found in /home/startins/public_html/publishers/camp_add.php on line 5
+[23-Apr-2013 13:31:56 America/New_York] PHP Fatal error:  Class 'FB' not found in /home/startins/public_html/publishers/camp_add.php on line 5
+[23-Apr-2013 13:32:39 America/New_York] PHP Fatal error:  Class 'FB' not found in /home/startins/public_html/publishers/camp_add.php on line 5
+[23-Apr-2013 13:32:40 America/New_York] PHP Fatal error:  Class 'FB' not found in /home/startins/public_html/publishers/camp_add.php on line 5
+[23-Apr-2013 13:33:03 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'Headers already sent in /home/startins/public_html/publishers/z_header.php on line 88. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.' in /home/startins/public_html/publishers/additional/FirePHPCore/FirePHP.class.php:1178
+Stack trace:
+#0 /home/startins/public_html/publishers/additional/FirePHPCore/FirePHP.class.php(757): FirePHP->newException('Headers already...')
+#1 [internal function]: FirePHP->fb('Log message', NULL, 'LOG')
+#2 /home/startins/public_html/publishers/additional/FirePHPCore/fb.php(148): call_user_func_array(Array, Array)
+#3 /home/startins/public_html/publishers/additional/FirePHPCore/fb.php(190): FB::send('Log message', NULL, 'LOG')
+#4 /home/startins/public_html/publishers/camp_add.php(5): FB::log('Log message')
+#5 {main}
+  thrown in /home/startins/public_html/publishers/additional/FirePHPCore/FirePHP.class.php on line 1178
+[23-Apr-2013 13:41:13 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/login.php on line 40
+[23-Apr-2013 15:43:45 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/adv_edit.php on line 84
+[23-Apr-2013 15:43:45 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/startins/public_html/publishers/adv_edit.php on line 90
+[23-Apr-2013 15:53:32 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/adv_add.php on line 106
+[23-Apr-2013 15:58:10 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/login.php on line 40
+[23-Apr-2013 16:48:09 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/login.php on line 40
+[23-Apr-2013 19:29:22 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/login.php on line 40
+[24-Apr-2013 16:17:41 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/login.php on line 40
+[25-Apr-2013 12:45:57 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/login.php on line 40
+[25-Apr-2013 13:55:39 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/login.php on line 40
+[25-Apr-2013 13:56:49 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/offer_edit.php on line 11
+[25-Apr-2013 13:56:49 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/offer_edit.php on line 11
+[25-Apr-2013 15:11:04 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/login.php on line 40
+[25-Apr-2013 15:51:41 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/offer_add.php on line 11
+[25-Apr-2013 15:51:42 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/offer_add.php on line 11
+[29-Apr-2013 00:45:25 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/login.php on line 40
+[29-Apr-2013 04:25:56 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/login.php on line 40
+[29-Apr-2013 05:22:50 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/adv_edit.php on line 84
+[29-Apr-2013 05:22:50 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/startins/public_html/publishers/adv_edit.php on line 90
+[29-Apr-2013 05:23:11 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/adv_edit.php on line 84
+[29-Apr-2013 05:23:11 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/startins/public_html/publishers/adv_edit.php on line 90
+[29-Apr-2013 05:23:30 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/adv_edit.php on line 84
+[29-Apr-2013 05:23:31 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/startins/public_html/publishers/adv_edit.php on line 90
+[29-Apr-2013 05:23:42 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/adv_edit.php on line 84
+[29-Apr-2013 05:23:42 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/startins/public_html/publishers/adv_edit.php on line 90
+[29-Apr-2013 05:23:52 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/adv_edit.php on line 84
+[29-Apr-2013 05:23:52 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/startins/public_html/publishers/adv_edit.php on line 90
+[29-Apr-2013 05:24:05 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/adv_edit.php on line 84
+[29-Apr-2013 05:24:05 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/startins/public_html/publishers/adv_edit.php on line 90
+[29-Apr-2013 05:26:20 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/pub_edit.php on line 84
+[29-Apr-2013 05:26:20 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/startins/public_html/publishers/pub_edit.php on line 90
+[29-Apr-2013 05:26:30 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/pub_edit.php on line 84
+[29-Apr-2013 05:26:30 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/startins/public_html/publishers/pub_edit.php on line 90
+[29-Apr-2013 05:26:41 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/pub_edit.php on line 84
+[29-Apr-2013 05:26:41 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/startins/public_html/publishers/pub_edit.php on line 90
+[29-Apr-2013 05:26:51 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/pub_edit.php on line 84
+[29-Apr-2013 05:26:51 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/startins/public_html/publishers/pub_edit.php on line 90
+[29-Apr-2013 05:26:59 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/pub_edit.php on line 84
+[29-Apr-2013 05:26:59 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/startins/public_html/publishers/pub_edit.php on line 90
+[29-Apr-2013 05:28:46 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/pub_edit.php on line 84
+[29-Apr-2013 05:28:46 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/startins/public_html/publishers/pub_edit.php on line 90
+[29-Apr-2013 05:28:56 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/pub_edit.php on line 84
+[29-Apr-2013 05:28:56 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/startins/public_html/publishers/pub_edit.php on line 90
+[29-Apr-2013 05:29:06 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/pub_edit.php on line 84
+[29-Apr-2013 05:29:06 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/startins/public_html/publishers/pub_edit.php on line 90
+[29-Apr-2013 05:30:49 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/offer_add.php on line 11
+[29-Apr-2013 05:30:49 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/offer_add.php on line 11
+[29-Apr-2013 06:42:01 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/login.php on line 40
+[29-Apr-2013 08:18:40 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/offer_edit.php on line 88
+[29-Apr-2013 08:18:48 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/offer_edit.php on line 88
+[29-Apr-2013 13:05:38 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/login.php on line 40
+[29-Apr-2013 13:05:53 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/offer_edit.php on line 88
+[29-Apr-2013 13:06:21 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/offer_edit.php on line 88
+[29-Apr-2013 13:11:25 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/offer_edit.php on line 87
+[29-Apr-2013 14:13:27 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/offer_edit.php on line 88
+[29-Apr-2013 14:13:36 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/camp_edit.php on line 364
+[29-Apr-2013 14:13:36 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/camp_edit.php on line 364
+[29-Apr-2013 14:28:09 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/offer_add.php on line 94
+[29-Apr-2013 14:33:11 America/New_York] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 10 in /home/startins/public_html/publishers/offer_list.php on line 5
+[29-Apr-2013 14:36:44 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/offer_add.php on line 100
+[29-Apr-2013 14:44:48 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/offer_edit.php on line 91
+[29-Apr-2013 14:48:10 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/offer_add.php on line 95
+[29-Apr-2013 14:48:20 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/offer_edit.php on line 86
+[29-Apr-2013 14:48:49 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/offer_edit.php on line 86
+[29-Apr-2013 14:51:35 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/offer_add.php on line 95
+[29-Apr-2013 14:57:32 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/offer_add.php on line 95
+[29-Apr-2013 14:59:15 America/New_York] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/z_header.php on line 99
+[29-Apr-2013 14:59:35 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/login.php on line 40
+[29-Apr-2013 15:00:38 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/adv_edit.php on line 84
+[29-Apr-2013 15:00:38 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/startins/public_html/publishers/adv_edit.php on line 90
+[29-Apr-2013 17:23:49 America/New_York] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/z_header.php on line 99
+[29-Apr-2013 19:02:36 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/login.php on line 40
+[29-Apr-2013 19:11:24 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/camp_edit.php on line 365
+[29-Apr-2013 19:11:24 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/camp_edit.php on line 365
+[29-Apr-2013 19:24:59 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/startins/public_html/publishers/camp_edit.php on line 15
+[29-Apr-2013 19:24:59 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/startins/public_html/publishers/camp_edit.php on line 15
+[29-Apr-2013 19:24:59 America/New_York] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 11 in /home/startins/public_html/publishers/camp_edit.php on line 107
+[29-Apr-2013 19:51:46 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/camp_edit.php on line 432
+[29-Apr-2013 19:51:46 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/camp_edit.php on line 432
+[29-Apr-2013 19:52:28 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/camp_edit.php on line 433
+[29-Apr-2013 19:53:13 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/camp_edit.php on line 412
+[29-Apr-2013 19:56:40 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/camp_edit.php on line 368
+[29-Apr-2013 19:56:40 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/camp_edit.php on line 434
+[29-Apr-2013 20:02:45 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/camp_edit.php on line 383
+[29-Apr-2013 20:02:45 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/camp_edit.php on line 449
+[29-Apr-2013 20:02:55 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/camp_edit.php on line 383
+[29-Apr-2013 20:02:55 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/camp_edit.php on line 449
+[29-Apr-2013 20:03:12 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/startins/public_html/publishers/camp_edit.php on line 15
+[29-Apr-2013 20:03:13 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/startins/public_html/publishers/camp_edit.php on line 15
+[29-Apr-2013 20:03:13 America/New_York] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 11 in /home/startins/public_html/publishers/camp_edit.php on line 107
+[29-Apr-2013 20:04:57 America/New_York] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 11 in /home/startins/public_html/publishers/camp_edit.php on line 107
+[29-Apr-2013 20:05:10 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/camp_edit.php on line 383
+[29-Apr-2013 20:05:10 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/camp_edit.php on line 449
+[29-Apr-2013 20:05:51 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/camp_edit.php on line 383
+[29-Apr-2013 20:05:51 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/camp_edit.php on line 449
+[29-Apr-2013 20:07:21 America/New_York] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 10 in /home/startins/public_html/publishers/camp_edit.php on line 5
+[29-Apr-2013 20:07:27 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/camp_edit.php on line 383
+[29-Apr-2013 20:07:27 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/camp_edit.php on line 449
+[29-Apr-2013 20:08:03 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/camp_edit.php on line 383
+[29-Apr-2013 20:08:03 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/camp_edit.php on line 449
+[29-Apr-2013 20:09:15 America/New_York] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/z_header.php on line 99
+[29-Apr-2013 20:09:25 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/login.php on line 40
+[29-Apr-2013 20:09:55 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/camp_edit.php on line 383
+[29-Apr-2013 20:09:55 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/camp_edit.php on line 449
+[29-Apr-2013 20:10:26 America/New_York] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 10 in /home/startins/public_html/publishers/camp_edit.php on line 5
+[29-Apr-2013 20:10:31 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/camp_edit.php on line 383
+[29-Apr-2013 20:10:31 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/camp_edit.php on line 449
+[29-Apr-2013 22:14:52 America/New_York] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/z_header.php on line 99
+[30-Apr-2013 07:33:53 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/login.php on line 40
+[30-Apr-2013 07:35:40 America/New_York] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 10 in /home/startins/public_html/publishers/camp_edit.php on line 5
+[30-Apr-2013 07:35:47 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/camp_edit.php on line 383
+[30-Apr-2013 07:35:47 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/camp_edit.php on line 449
+[30-Apr-2013 07:35:54 America/New_York] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 10 in /home/startins/public_html/publishers/camp_edit.php on line 5
+[30-Apr-2013 07:35:57 America/New_York] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 10 in /home/startins/public_html/publishers/camp_edit.php on line 5
+[30-Apr-2013 07:36:03 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/camp_edit.php on line 383
+[30-Apr-2013 07:36:03 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/camp_edit.php on line 449
+[30-Apr-2013 07:36:08 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/camp_edit.php on line 383
+[30-Apr-2013 07:36:08 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/camp_edit.php on line 449
+[01-May-2013 12:18:26 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/login.php on line 40
+[01-May-2013 12:31:17 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/login.php on line 40
+[01-May-2013 14:27:55 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/camp_edit.php on line 400
+[01-May-2013 14:27:55 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/camp_edit.php on line 466
+[01-May-2013 14:29:21 America/New_York] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/z_header.php on line 99
+[01-May-2013 14:29:31 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/login.php on line 40
+[01-May-2013 14:30:20 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/camp_edit.php on line 400
+[01-May-2013 14:30:20 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/camp_edit.php on line 466
+[01-May-2013 14:36:02 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/camp_list.php on line 92
+[01-May-2013 14:36:02 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/camp_list.php on line 92
+[01-May-2013 14:36:49 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/camp_list.php on line 92
+[01-May-2013 14:36:50 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/camp_list.php on line 92
+[01-May-2013 14:57:02 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/camp_add.php on line 115
+[01-May-2013 14:57:20 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/camp_edit.php on line 400
+[01-May-2013 14:57:20 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/camp_edit.php on line 466
+[01-May-2013 14:57:29 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/camp_edit.php on line 400
+[01-May-2013 14:57:29 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/camp_edit.php on line 466
+[01-May-2013 14:57:34 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/camp_edit.php on line 400
+[01-May-2013 14:57:34 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/camp_edit.php on line 466
+[01-May-2013 14:57:54 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/camp_edit.php on line 400
+[01-May-2013 14:57:54 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/camp_edit.php on line 466
+[01-May-2013 15:10:07 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/camp_add.php on line 115
+[01-May-2013 15:10:19 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/camp_edit.php on line 400
+[01-May-2013 15:10:19 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/camp_edit.php on line 466
+[01-May-2013 15:10:26 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/camp_edit.php on line 400
+[01-May-2013 15:10:26 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/camp_edit.php on line 466
+[01-May-2013 16:54:36 America/New_York] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/z_header.php on line 99
+[02-May-2013 06:45:59 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/login.php on line 40
+[02-May-2013 14:34:07 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/login.php on line 40
+[02-May-2013 14:40:21 America/New_York] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/z_header.php on line 99
+[02-May-2013 14:40:21 America/New_York] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/dashboard.php on line 59
+[02-May-2013 14:40:21 America/New_York] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/dashboard.php on line 71
+[02-May-2013 14:40:21 America/New_York] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/dashboard.php on line 84
+[02-May-2013 14:40:21 America/New_York] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/dashboard.php on line 97
+[02-May-2013 14:40:21 America/New_York] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/dashboard.php on line 109
+[02-May-2013 14:40:21 America/New_York] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/dashboard.php on line 121
+[02-May-2013 14:40:21 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/dashboard.php on line 164
+[02-May-2013 14:40:38 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/login.php on line 40
+[02-May-2013 15:17:37 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/login.php on line 40
+[02-May-2013 15:19:11 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/offer_edit.php on line 86
+[02-May-2013 15:20:31 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/login.php on line 40
+[02-May-2013 15:29:43 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/login.php on line 40
+[02-May-2013 15:31:37 America/New_York] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 10 in /home/startins/public_html/publishers/camp_edit.php on line 5
+[05-May-2013 09:19:09 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/login.php on line 40
+[23-May-2013 12:51:12 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/login.php on line 40
+[23-May-2013 12:52:09 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/login.php on line 40
+[04-Jun-2013 16:28:59 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/login.php on line 40
+[05-Jun-2013 16:06:04 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/login.php on line 40
+[08-Jun-2013 14:45:58 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/login.php on line 40
+[10-Jun-2013 05:52:11 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/login.php on line 40
+[10-Jun-2013 05:58:18 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/camp_edit.php on line 400
+[10-Jun-2013 05:58:18 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/camp_edit.php on line 466
+[17-Jun-2013 15:40:50 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/login.php on line 40
+[17-Jun-2013 16:45:49 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/login.php on line 40
+[17-Jun-2013 16:58:08 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/login.php on line 40
+[17-Jun-2013 16:58:15 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/z_header.php on line 5
+[17-Jun-2013 16:59:25 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/login.php on line 40
+[17-Jun-2013 17:00:05 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/login.php on line 40
+[17-Jun-2013 19:41:20 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/login.php on line 40
+[18-Jun-2013 02:00:59 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/login.php on line 40
+[18-Jun-2013 13:40:32 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/startins/public_html/publishers/login.php on line 40
+[18-Jun-2013 13:44:19 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/startins/public_html/publishers/reports.php on line 526

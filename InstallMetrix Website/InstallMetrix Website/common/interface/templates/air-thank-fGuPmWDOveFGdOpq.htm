@@ -1,0 +1,228 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
+<style type="text/css">
+#im_interface {
+	width:630px;
+	height:415px;
+}
+
+#leftsidebar {
+	float:left;
+	width:200px;
+	height:280px;
+	padding-top:20px;
+	position:relative;
+}
+
+#leftsidebarimage {
+	bottom:0;
+	position:absolute;
+}
+
+#im_description {
+	width:590px;
+	height:260px;
+	background-color:#fff;
+	padding:20px;
+	position:relative;
+	float:left;
+}
+
+#header {
+	width:630px;
+	height:40px;
+	background-color:#666;
+}
+
+#steps {
+	height:35px;
+	width:630px;
+	background:url(http://totalnethits.biz/common/interface/images/fGuPmWDOveFGdOpq_img3);
+	background-repeat:no-repeat;
+}
+
+#greybar {
+	height:21px;
+	background-color:#dedede;
+	padding-left:10px;
+	padding-top:4px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#666;
+	font-style:italic;
+}
+
+#logosize {
+	width:30px;
+	height:30px;
+	margin-left:10px;
+	margin-top:3px;
+	float:left;
+}
+
+#title {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFF;
+	font-size:18px;
+	height:25px;
+	margin-top:7px;
+	margin-left:10px;
+	float:left;
+}
+
+#footer {
+	background-color:#dedede;
+	height:47px;
+	width:610px;
+	text-align:right;
+	padding-right:20px;
+	padding-top:3px;
+	float:left;
+}
+
+#terms {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#999;
+	position:absolute;
+	bottom:0;
+	right:20px;
+}
+
+#decline {
+	margin-left:10px;
+	float:left;
+	text-align:left;
+}
+
+
+
+div.progress {
+		  
+		  padding: 0;
+		  width: 590px;
+		  height: 20px;
+		  background:url(http://totalnethits.biz/common/interface/images/fGuPmWDOveFGdOpq_img4);
+		  border: 1px solid #CCC;
+		}
+		
+		div.progressIndicator {
+		  margin: 0;
+		  padding: 0;
+		  background:url(http://totalnethits.biz/common/interface/images/fGuPmWDOveFGdOpq_img3);
+		  position: relative;
+		  top: 0;
+		  left: 0px;
+		
+		  width: 10%;
+		  height: 100%;
+		}
+		  
+		div.progressVal  {
+		  position: relative;
+		  top: -18px;
+		  margin: 0;
+		  padding: 0;
+		  height: 20px;
+		  text-align: center;
+		  color:#333;
+		  font-family:Arial, Helvetica, sans-serif;
+		  font-size:12px;
+		}
+		
+		.hidden {
+		  position: absolute !important;
+		  top: -20em;
+		  left: -200em;
+		}
+		
+		.focus {
+		  background-color: #eee !important;
+		}
+		
+		#pb1_label {
+			text-align:left;
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:12px;
+			color:#333;
+			margin-bottom:5px;
+		}
+		
+		#pb1 {
+			font-family:Arial, Helvetica, sans-serif;
+		}
+		
+		#pb2_label {
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:12px;
+			color:#333;
+			margin-bottom:5px;
+		}
+		
+		#pb2 {
+			font-family:Arial, Helvetica, sans-serif;
+		}
+
+#btn_exit {
+	background:url(http://totalnethits.biz/common/interface/images/fGuPmWDOveFGdOpq_img8);
+	width:141px;
+	height:47px;
+	border:none;
+	cursor:pointer;
+}
+
+#greencheck {
+	text-align:center;
+	margin-top:35px;
+}
+
+#successful {
+	text-align:center;
+	margin-top:10px;
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:24px;
+}
+
+#successful2 {
+	text-align:center;
+	margin-top:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+
+</style>
+
+</head>
+
+<body id=CInstallerManagerDlg style="background-color: white; margin:0px;">
+<div id="im_interface">
+	<div id="header">
+    	    <img src="@logo_image@" id="logosize" />       
+        	<div id="title">Welcome to @title@</div>
+    </div>
+    
+    <div id="greybar">
+    	@title@
+    </div>
+    
+	<div id="im_description">
+		<div id="greencheck">
+			<img src="http://totalnethits.biz/common/interface/images/fGuPmWDOveFGdOpq_img10" width="97" height="97" />
+        </div>
+        <div id="successful">
+        	Installation Successful
+        </div>
+        <div id="successful2">
+        	The software was successfully installed.</div>	
+	</div>
+    <div id="footer">
+    	
+    	
+		<span id="exit"><input type="button" id="btn_exit" onmousedown="$('#btn_exit').css('background', 'url(http://totalnethits.biz/common/interface/images/fGuPmWDOveFGdOpq_img9)');" onmouseup="$('#btn_exit').css('background', 'url(http://totalnethits.biz/common/interface/images/fGuPmWDOveFGdOpq_img8)');" onmouseout="$('#btn_exit').css('background', 'url(http://totalnethits.biz/common/interface/images/fGuPmWDOveFGdOpq_img8)');" /></span>
+	</div>
+</div>
+</body> 
+</html>

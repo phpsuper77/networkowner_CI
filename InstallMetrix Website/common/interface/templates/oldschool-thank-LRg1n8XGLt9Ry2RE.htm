@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
+<style type="text/css">
+#im_interface {
+	width:630px;
+	height:402px;
+}
+
+#im_description {
+	width:590px;
+	height:250px;
+	background-color:#f0f0f0;
+	padding:20px;
+	position:relative;
+	border-bottom:1px solid #c4c4c4;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+
+#header {
+	width:630px;
+	height:60px;
+	background-color:#fff;
+	
+}
+
+#leftheader{
+	float:left;
+}
+
+#rightheader {
+	float:right;
+	margin-right:20px;
+	margin-top:10px;
+}
+
+#logo {
+	height:40px;
+}
+
+#subhead1 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:12px;
+	margin-top:10px;
+	margin-left:10px;
+}
+
+#subhead2 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin-top:10px;
+	margin-left:20px;
+}	
+
+
+#footer {
+	background-color:#f0f0f0;
+	height:50px;
+	width:610px;
+	text-align:right;
+	padding-right:20px;
+	border-top:1px solid #fff;
+}
+
+#terms {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#999;
+	position:absolute;
+	bottom:0;
+	right:20px;
+}
+
+
+
+
+
+#btn_exit {
+	background:url(http://totalnethits.biz/common/interface/images/LRg1n8XGLt9Ry2RE_img7);
+	width:138px;
+	height:31px;
+	border:none;
+	cursor:pointer;
+	margin-top:10px;
+	margin-right:10px;
+}
+
+
+</style>
+
+</head>
+
+<body id=CInstallerManagerDlg style="background-color: white; margin:0px;">
+<div id="im_interface">
+	<div id="header">
+    	<div id="leftheader">
+            <div id="subhead1">
+                @title@ Install Setup
+            </div>
+            <div id="subhead2">
+                Please click the "next" button to begin your installation of @title@.
+            </div>	
+        </div>
+        <div id="rightheader">
+        	<img id="logo" src="@logo_image@" />
+        </div>
+    </div>
+	<div id="middlesection">
+		<div id="im_description">
+        	<strong>You have successfully installed @title@.</strong><br /><br />
+            Click the "Exit" button to complete your installation.
+        </div>
+	</div>
+    <div id="footer">
+    	
+    
+		<span id="next"><input type="button" id="btn_exit" onmousedown="$('#btn_exit').css('background', 'url(http://totalnethits.biz/common/interface/images/LRg1n8XGLt9Ry2RE_img8)');" onmouseup="$('#btn_exit').css('background', 'url(http://totalnethits.biz/common/interface/images/LRg1n8XGLt9Ry2RE_img7)');" onmouseout="$('#btn_exit').css('background', 'url(http://totalnethits.biz/common/interface/images/LRg1n8XGLt9Ry2RE_img7)');" /></span>
+	</div>
+</div>
+</body> 
+</html>

@@ -1,0 +1,375 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
+<style type="text/css">
+#im_interface {
+	width:630px;
+	height:410px;
+}
+
+#im_description {
+	width:590px;
+	height:260px;
+	background-color:#ebeef0;
+	padding:20px;
+}
+
+#header {
+	width:630px;
+	height:60px;
+	background-image:url(http://totalnethits.biz/common/interface/images/GiXVb0lLtCUpJ8hn_img1);
+	background-repeat:repeat-x;
+	text-align:center;
+	
+}
+
+#inner {
+	display:inline-block;
+	text-align:left;
+}
+
+#logosize {
+	width:50px;
+	height:50px;
+	margin-left:20px;
+	margin-top:6px;
+	float:left;
+}
+
+#title {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#F4F4F4;
+	font-size:26px;
+	height:30px;
+	margin-top:15px;
+	margin-left:10px;
+	float:left;
+}
+
+#footer {
+	background-color:#464648;
+	height:50px;
+	width:610px;
+	text-align:right;
+	padding-right:20px;
+}
+
+#terms {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#999;
+	margin-top:20px;
+	margin-left:20px;
+	float:left;
+}
+
+#minimize {
+	
+}
+
+#btn_minimize {
+	background:url(http://totalnethits.biz/common/interface/images/GiXVb0lLtCUpJ8hn_img6);
+	width:141px;
+	height:47px;
+	border:none;
+	cursor:pointer;
+}
+
+#btn_accept {
+	background:url();
+	width:141px;
+	height:47px;
+	border:none;
+	cursor:pointer;
+}
+
+
+div.progress {
+		  
+		  padding: 0;
+		  width: 590px;
+		  height: 20px;
+		  background:url(http://totalnethits.biz/common/interface/images/GiXVb0lLtCUpJ8hn_img11);
+		  border: 1px solid #CCC;
+		}
+		
+		div.progressIndicator {
+		  margin: 0;
+		  padding: 0;
+		  background:url(http://totalnethits.biz/common/interface/images/GiXVb0lLtCUpJ8hn_img12);
+		  position: relative;
+		  top: 0;
+		  left: 0px;
+		
+		  width: 10%;
+		  height: 100%;
+		}
+		  
+		div.progressVal  {
+		  position: relative;
+		  top: -18px;
+		  margin: 0;
+		  padding: 0;
+		  height: 20px;
+		  text-align: center;
+		  color:#333;
+		  font-family:Arial, Helvetica, sans-serif;
+		  font-size:12px;
+		}
+		
+		.hidden {
+		  position: absolute !important;
+		  top: -20em;
+		  left: -200em;
+		}
+		
+		.focus {
+		  background-color: #eee !important;
+		}
+		
+		#pb1_label {
+			text-align:left;
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:12px;
+			color:#333;
+			margin-bottom:5px;
+		}
+		
+		#pb1 {
+			font-family:Arial, Helvetica, sans-serif;
+		}
+		
+		#pb2_label {
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:12px;
+			color:#333;
+			margin-bottom:5px;
+		}
+		
+		#pb2 {
+			font-family:Arial, Helvetica, sans-serif;
+		}
+
+</style>
+
+</head>
+
+<body id=CInstallerManagerDlg style="background-color: white; margin:0px;">
+<div id="im_interface">
+	<div id="header">
+    	<div id="inner">
+        	<img src="@logo_image@" id="logosize" />       
+        	<div id="title">@title@</div>
+        </div>
+    </div>
+	<div id="im_description">
+		<div role="application">
+			<div id="pb1_label">Current Progress</div>
+		  <div id="pb1" class="progress" role="progressbar" aria-labelledby="pb1_label" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" tabindex="0"></div>  
+		  <br>
+		  <div id="pb2_label">Overall Progress</div>
+		  <div id="pb2" class="progress" role="progressbar" aria-labelledby="pb1_label" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" tabindex="1"></div>  
+		</div>
+		<script type="text/javascript">
+		
+			var g_progress1 = null;
+			var g_$startButton = null;
+			
+			var g_intervalID = null; // the handle of the interval set when the example is running
+			var g_curVal = 0;
+			var g_maxVal = 100;
+			var g_targetVal = 80;
+			var g_takenTime = 0;
+			
+
+			function SetProgressValue1 (val) {
+					if((val>=0) && (val<=100))
+					{
+			   		g_progress1.setValue("pb1",val);
+					}
+			}
+			function SetProgressValue2 (val) {
+					if((val>=0) && (val<=100))
+					{
+			   		g_progress2.setValue("pb2",val);
+					}
+			}
+
+			
+			$(document).ready(function() {
+			
+			   var running = false; // true if example is running
+			
+			  // progress1 is a progress bar
+			  g_progress1 = new progressbar('pb1', g_maxVal, true); 
+			  g_progress2 = new progressbar('pb2', g_maxVal, true); 
+			  
+			  //SetProgressValue1(30);
+			  //SetProgressValue2(70);
+ 			   
+			}); // end document ready
+			
+			
+			
+			////////////////////////////////////////////////////
+			//
+			// function progressbar() is a class to define an ARIA-enabled progressbar widget.
+			//
+			// @param(container_id string) container_id is the containing div for the progressbar
+			//
+			// @param(max integer) max is the maximum value for the values being set. Used to calculate percent progress
+			//
+			// @param(showVal boolean) showVal is true if the current progress value should be shown
+			//
+			// @return N/A
+			//
+			function progressbar(container_id, max, showVal) {
+			
+			  // define progressbar object properties
+			
+			  this.$container = $('#' + container_id);
+			  this.valMax = max;
+			  this.showVal = showVal;
+			   this.divWidth = 0;
+			
+			  // Store the size of the progress bar
+			  this.width = this.$container.width();
+			
+			  // Store the page position of the widget
+			  this.left = Math.round(this.$container.offset().left);
+			  this.top = Math.round(this.$container.offset().top);
+			
+			   // Create and initialize the progress indicator
+			   this.$container.append('<div id="' + container_id + '_progDiv" class="progressIndicator"></div>'); 
+			   $('#'+container_id+'_progDiv').css('width', '0%');
+			
+			   // Create and initialize the value box
+			   this.$container.append('<div id="' + container_id + '_progVal" class="progressVal" aria-hidden="false"></div>'); 
+			   $('#'+container_id+'_progVal').html('0%');
+			
+			   if (this.showVal == false) {
+			      $('#'+container_id+'_progVal').addClass('hidden').attr('aria-hidden', 'true');
+			   }
+			
+			} // end progressbar constructor
+			
+			//
+			// function setValue() is a member function to set the value of the progress bar.
+			//
+			// @param(val integer) val is the new value to calculate the progress from
+			//
+			// @return N/A
+			//
+			progressbar.prototype.setValue = function(container_id,val)  {
+			
+			   var percent = val * 100 / this.valMax;
+			
+			   if (percent <= 100.0) {
+			      this.$container.attr('aria-valuenow', Math.round(percent));
+			      $('#'+container_id+'_progDiv').css('width', percent + '%'); //Math.round(percent) + '%');
+			      $('#'+container_id+'_progVal').html(this.$container.attr('aria-valuenow') + '%');
+			   }
+			}
+			
+			//
+			// function getProgress() is a member function to return the percent progress
+			//
+			// @return (integer) Returns the percent progress in integer form (e.g. 50 represents 50%)
+			//
+			progressbar.prototype.getProgress = function()  {
+			
+			   return this.$container.attr('aria-valuenow');
+			}
+
+			
+			//
+			// function positionHandle() is a member function to position a handle at the specified value for the
+			// progressbar. If showVal is true, it also positions and updates the displayed value container.
+			//
+			// @param($handle object) $handle is a pointer to the handle jQuery object to manipulate
+			//
+			// @param (val integer) val is the new value of the progressbar
+			//
+			// @return N/A
+			//
+			progressbar.prototype.positionHandle = function($handle, val) {
+			
+			  var handleHeight = $handle.outerHeight(); // the total height of the handle
+			  var handleWidth = $handle.outerWidth(); // the total width of the handle
+			  var handleOffset; // the distance from the value position for centering the handle
+			  var xPos; // calculated horizontal position of the handle;
+			  var yPos; // calculated vertical position of the handle;
+			  var valPos; //calculated new pixel position for the value;
+			
+			    
+			   // calculate the horizontal pixel position of the specified value
+			   valPos = ((val - this.min) / (this.max - this.min)) * this.width + this.left;
+			
+			   xPos = Math.round(valPos - (handleWidth / 2));
+			   yPos = Math.round(this.top + (this.height / 2) - (handleHeight / 2));
+			
+			  // Set the position of the handle
+			  $handle.css('top', yPos + 'px');
+			  $handle.css('left', xPos + 'px');
+			
+			  // Set the aria-valuenow position of the handle
+			  $handle.attr('aria-valuenow', val);
+			
+			  // Update the stored handle values
+			  if (/1$/.test($handle.attr('id')) == true) {
+			    // first handle
+			    this.val1 = val;
+			  }
+			  else {
+			    // second handle
+			    this.val2 = val;
+			  }
+			
+			  // if showVal is true, update the value container
+			  if (this.showVals == true) {
+			    this.updateValBox($handle, Math.round(valPos));
+			  }
+			
+			} // end positionHandle()
+			
+			//
+			// function updateValBox() is a member function to reposition a handle value box and update its contents
+			//
+			// @return N/A
+			//
+			progressbar.prototype.updateValBox = function() {
+			
+			  var $valBox = $('#' + $handle.attr('id') + '_val');
+			
+			  var xPos; // horizontal pixel position of the box
+			  var yPos; // vertical pixel position of the box
+			
+			  // Set the position of the handle
+			   var boxWidth = $valBox.outerWidth();
+			
+			   yPos = $handle.css('top');
+			
+			   // Adjust the horizontal position to center the value box on the value position
+			   xPos = Math.round(valPos - (boxWidth / 2)) + 'px';
+			
+			  // Set the position of the value box
+			  $valBox.css('top', yPos);
+			  $valBox.css('left', xPos);
+			
+			  // Set the text in the box to the handle value
+			  $valBox.text($handle.attr('aria-valuenow'));
+			
+			} // end updateValBox()
+		</script>
+        <div style="text-align:center;margin-top:25px;">
+        	
+        </div>
+	</div>
+    <div id="footer">
+    	<span id="minimize"><input type="button" id="btn_minimize" onmousedown="$('#btn_minimize').css('background', 'url(http://totalnethits.biz/common/interface/images/GiXVb0lLtCUpJ8hn_img7)');" onmouseup="$('#btn_minimize').css('background', 'url(http://totalnethits.biz/common/interface/images/GiXVb0lLtCUpJ8hn_img6)');" onmouseout="$('#btn_minimize').css('background', 'url(http://totalnethits.biz/common/interface/images/GiXVb0lLtCUpJ8hn_img6)');" /></span>
+	</div>
+</div>
+</body> 
+</html>
